@@ -27,3 +27,11 @@ private void RegisterAutofac()
     DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
 }
 ```
+
+### Extension for web development on visual studio
+
+- toggle comment
+- visual studio intellicode
+- emmet
+- add new file
+- productivity power tools
