@@ -35,3 +35,8 @@ private void RegisterAutofac()
 - emmet
 - add new file
 - productivity power tools
+
+### Keyboard shortcut
+
+- Ctrl M + G => Go to view
+- Ctrl M + V => Add View
