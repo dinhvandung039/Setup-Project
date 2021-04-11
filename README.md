@@ -143,3 +143,19 @@ private void RegisterAutofac()
 + pretter
 + reactjs code snippets
 + visual studio intellicode
+
+ //var authorizeConfig = Configuration.GetSection("Authentication");
+
+            //services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //  .AddJwtBearer(options =>
+            //  {
+            //      options.SaveToken = true;
+            //      options.RequireHttpsMetadata = false;
+            //      options.TokenValidationParameters =
+            //           new TokenValidationParameters
+            //           {
+            //               ValidIssuer = authorizeConfig.GetValue<string>("Issuer"),
+            //               ValidAudience = authorizeConfig.GetValue<string>("Audience"),
+            //               IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(authorizeConfig.GetValue<string>("Secret"))),
+            //           };
+            //  });
